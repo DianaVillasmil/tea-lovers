@@ -38,8 +38,29 @@ Código Hexadecimal gris footer: #3B3B3B
 	padding: 50px;
 }
 
+.newsletter label {
+	margin: 10px;
+	color: white;
+
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"]{
+	border-radius: 10px;
+	border-style: none;
+	border-width: 0;
+	border-color: transparent;
+	width: 300px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.newsletter input::placeholder {
+	color: #8ec641;
+}
+
 .newsletter button {
-	color: whitw;
+	color: white;
 	background-color: #8EC641;
 	padding: 20PX;
 	border: 5px solid white;
@@ -47,6 +68,11 @@ Código Hexadecimal gris footer: #3B3B3B
 	font-size: 1.5em;
 	font-weight: bolder;
 	cursor: pointer;
+}
+
+.newsletter select {
+	border-radius: 50px;
+	background-color: #dddddd;
 }
 /*seccion about*/
 
